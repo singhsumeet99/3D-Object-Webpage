@@ -140,8 +140,6 @@ a {
   line-height: 2;
   word-spacing: 10;
 }
-.btn_and_arrow {
-}
 
 .grid--curved-arrow {
   transform: translate(-100px, 80px);
@@ -156,6 +154,12 @@ a {
 }
 .red-ellipse img {
   max-width: 90%;
+  backdrop-filter: blur(20px);
+  border-radius: 70px 70px 0 0;
+}
+
+.image-section {
+  display: grid;
 }
 
 .hehe {
@@ -168,12 +172,12 @@ a {
 }
 
 .red_full-circle img {
-  width: 100%;
+  width: 80%;
 }
 
 .purple_full-circle {
   position: absolute;
-  bottom: 150px;
+  bottom: 200px;
   right: -55px;
 }
 .purple_full-circle img {
@@ -182,7 +186,7 @@ a {
 
 .green-circle {
   position: absolute;
-  bottom: 40px;
+  bottom: 115px;
   left: 150px;
 }
 .green-circle img {
@@ -197,8 +201,7 @@ a {
 }
 
 .grid--scroll {
-  margin-top: 12rem;
-  transform: translateY(4px);
+  align-self: end;
 }
 
 .grid--get_started {
@@ -216,7 +219,7 @@ a {
   }
   .crown {
     top: 0.5em;
-    left: 19em;
+    left: 18.8em;
   }
   .crown img {
     width: 70%;
@@ -243,13 +246,32 @@ a {
     transform: translate(-100px, 2px);
   }
   .grid--scroll {
-    transform: translateY(30px);
-  }
-  .grid--scroll img {
     width: 25%;
   }
   .grid--image img {
     width: 100%;
+  }
+
+  .red_full-circle img {
+    width: 60%;
+  }
+
+  .purple_full-circle {
+    position: absolute;
+    bottom: 160px;
+    right: -80px;
+  }
+  .purple_full-circle img {
+    width: 50%;
+  }
+
+  .green-circle {
+    position: absolute;
+    bottom: 100px;
+    left: 150px;
+  }
+  .green-circle img {
+    width: 50%;
   }
 }
 
@@ -308,8 +330,6 @@ a {
   }
   .backround-container {
     padding: 2rem 3rem;
-  }
-  .navbar {
   }
   .heading1 {
     font-size: 3rem;
