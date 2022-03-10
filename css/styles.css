@@ -52,6 +52,9 @@ a {
   color: #000000;
   font-size: 1.6rem;
 }
+.navbar--content img {
+  display: none;
+}
 
 /* Typography */
 .heading1 {
@@ -207,7 +210,7 @@ a {
 .grid--get_started {
   width: 30%;
 }
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 770px) and (max-width: 1024px) {
   .heading1 {
     font-size: 7rem;
   }
@@ -329,10 +332,10 @@ a {
     padding: 25px 25px 0 25px;
   }
   .backround-container {
-    padding: 2rem 3rem;
+    padding: 1rem 3rem;
   }
   .heading1 {
-    font-size: 3rem;
+    font-size: 4rem;
   }
   .heading2 {
     font-size: 3rem;
@@ -342,14 +345,72 @@ a {
     font-size: 1rem;
   }
   .crown {
-    top: 1.5em;
-    left: 7.5em;
+    top: 1.8em;
+    left: 10.5em;
   }
   .crown img {
     width: 40%;
   }
   .Get-Started {
+    margin-top: 20px;
     padding: 0.1rem 5vw;
     font-size: 1.5rem;
+  }
+  .navbar--content a {
+    display: none;
+  }
+  .navbar--content button {
+    display: none;
+  }
+  .navbar--content img {
+    display: block;
+  }
+  .navbar--content {
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 60%;
+    justify-content: end;
+    align-self: flex-start;
+  }
+  .btn_and_arrow {
+    display: block;
+  }
+  .red-ellipse {
+    width: 50%;
+    transform: translate(-40px, 22px);
+  }
+  .grid--curved-arrow {
+    transform: translate(-5px, 40px);
+  }
+  .grid--curved-arrow img {
+    max-width: 110%;
+  }
+
+  .grid--1x2 {
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 760px) and (max-width: 768px) {
+  .btn_and_arrow {
+    display: block;
+  }
+  .red-ellipse {
+    width: 50%;
+
+    transform: translate(-90px, 13px);
+  }
+  .red-ellipse img {
+    border-radius: 70px 70px 40px 40px;
+  }
+  .grid--curved-arrow {
+    transform: translate(-25px, 40px);
+  }
+  .grid--curved-arrow img {
+    max-width: 110%;
+  }
+
+  .grid--1x2 {
+    padding-bottom: 0;
   }
 }
